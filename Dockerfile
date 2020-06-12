@@ -1,7 +1,7 @@
-FROM node:alpine
+FROM node:14.4.0-alpine3.12
 MAINTAINER Leonardo Lobo Lima <dleemoo@gmail.com>
 
-ENV VERSION=7.7.3 \
+ENV VERSION=7.42.1 \
     DIR=/cli
 
 RUN set -ex \
